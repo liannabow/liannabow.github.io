@@ -1,0 +1,234 @@
+/* For mobile phones: */
+[class*="col-"]{
+    width: 100%;
+    float: left;
+    padding: 15px;
+    /*border: 1px solid red;*/
+}
+
+/*#region Magic Section*/
+
+/*MAGIC*/
+/*This is how you get the magic of the "splash screen" taking up the whole opening screen, no matter how you resize the page, with absolutely no jquery!*/
+html,
+body{
+    height: 100%;
+}
+
+header{
+    min-height: 100%;
+}
+/*#endRegion*/
+
+
+html{
+    background: #e2a726;            
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: #5A3000;
+}
+
+main{
+    background: #FDF5DF;
+}
+
+#SplashScreenWord{
+    font-family: 'Slabo 13px', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 40px;
+    padding: 50px;
+    position: absolute;
+    bottom: 36%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#hireBtn{
+    position: absolute;
+    bottom: 5vw;
+/*    text-align: center;*/
+    /*position: absolute;
+    bottom: 5vw;    
+    margin: auto;*/
+    /*left: 0;
+    right: 0;*/
+}
+
+button{
+    border-radius: 15px;
+    padding: 15px 25px;
+    background-color: #5A3000;
+    color: #e2a726;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 20px;
+    border: 1px solid #5A3000;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    cursor: pointer;
+    position: absolute;
+    left: 5vw;
+}
+
+button:hover{
+    /* background-color: #5A3000;
+    color: #DFA500; */
+    background-color: #e2a726;
+    color: #5A3000;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    padding: 15px 35px;
+}
+
+/* for landscape screen height */
+/*@media all and (orientation: landscape) {
+    #SplashScreenWord{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #responsiveSignal{
+        padding: 25px 15px;
+    }
+}*/
+
+
+
+/* For tablets */
+/* @media only screen and (min-width: 600px)*/
+@media only screen and (min-width: 500px) {
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+    #SplashScreenWord{
+        font-size: 60px;
+    }
+
+    #responsiveSignal{
+        background-color: teal;
+    }
+
+    header{
+        /*background-image: url(media/MandalaKamryYellow.jpg);*/
+        background-image: url(media/MandalaOneLineYellow.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+/* For desktop */
+/* @media only screen and (min-width: 768px)*/
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    #SplashScreenWord{
+        font-size: 80px;
+    }
+
+    #responsiveSignal{
+        background-color: darkslateblue;
+    }
+
+    header{
+        /*background-image: url(media/MandalaKamryYellow.jpg);*/
+        background-image: url(media/MandalaOneLineYellow.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+}
+
+* {
+    /*makes sure the padding and border are included in total height of elements*/
+    box-sizing: border-box;
+}
+
+
+
+
+
+#logo{
+    /*centers an element horizontally*/
+    margin: auto;
+    /*background-image: url(media/MandalaKamryDark.jpg);*/
+    max-width:50px;
+    height: 50px;
+    /*background-size: cover;*/
+    border-radius: 30px;
+    font-weight: normal;
+}
+
+
+
+.practiceImg{
+    background-image: url(media/MandalaKamryDark.jpg);
+    background-size: cover;
+    color: red;
+    /*display: table;*/
+}
+
+
+.practiceImg > p{
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    font-family: Lora;
+    /*display: inline-block;
+    display: table-cell;
+    vertical-align: middle;*/
+}
+
+/*divides the page into columns and gives percentage of page for each number of columns*/
+/* [class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+} */
+/*
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+*/
+
+/*this solves the problem of everything floating to the left and taken out of the flow of the page, which would have made them get placed as if our columns don't exist. so we add a style to clear the float*/
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
