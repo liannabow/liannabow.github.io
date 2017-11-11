@@ -22,7 +22,8 @@ header{
 
 
 html{
-    background: #e2a726;            
+/*    background: #e2a726;*/
+    background: #cc9933;
     text-align: center;
     font-family: 'Lora', serif;
     color: #5A3000;
@@ -30,6 +31,14 @@ html{
 
 main{
     background: #FDF5DF;
+    margin: auto -8px;
+}
+
+.portfolioBox{
+    background: #FDF5DF;
+    padding: 10px;
+    border: 5px solid #FDF5DF;
+    box-shadow: 1px 1px 5px #888888;
 }
 
 #SplashScreenWord{
@@ -58,7 +67,7 @@ button{
     border-radius: 15px;
     padding: 15px 25px;
     background-color: #5A3000;
-    color: #e2a726;
+    color: #cc9933;
     /*font-family: 'Roboto', sans-serif;*/
     font-family: 'Lora', serif;
     font-weight: bold;
@@ -75,7 +84,7 @@ button{
 button:hover{
     /* background-color: #5A3000;
     color: #DFA500; */
-    background-color: #e2a726;
+    background-color: #cc9933;
     color: #5A3000;
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
