@@ -31,7 +31,7 @@ html{
 
 main{
     background: #FDF5DF;
-    margin: auto -8px;
+    margin: auto -8px 40px;
 }
 
 .portfolioBox{
@@ -91,27 +91,34 @@ button:hover{
     padding: 15px 35px;
 }
 
+a{
+    padding: 10px;
+}
+
 article img{
     padding: 20px;
     box-shadow:  1px 1px 5px #888888;
     margin: 20px;
 }
 
-/* for landscape screen height */
-/*@media all and (orientation: landscape) {
-    #SplashScreenWord{
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
+footer{
+    padding: 40px;
+    margin: 40px -8px -1px;
+    background: #5A3000;
+    color: #cc9933;
+}
 
-    #responsiveSignal{
-        padding: 25px 15px;
-    }
-}*/
+footer p{
+    margin: 0px;
+}
 
+footer p:last-of-type{
+    margin: 0px 0px 20px;
+}
 
+.leftJust{
+    text-align: left;
+}
 
 /* For tablets */
 /* @media only screen and (min-width: 600px)*/
