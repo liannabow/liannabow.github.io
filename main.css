@@ -36,9 +36,25 @@ html{
     color: #5A3000;
 }
 
-main{
+section{
     background: #FDF5DF;
     margin: auto -8px 40px;
+}
+
+.skillsRow p{
+    font-size: 12px;
+}
+
+.filterBtn{
+    width: 50px;
+    -webkit-transition-duration: 0.5s;  Safari 
+    transition-duration: 0.5s;
+}
+
+.filterBtn:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    width: 48px;
 }
 
 .portfolioBox{
@@ -46,7 +62,7 @@ main{
     padding: 10px;
     border: 5px solid #FDF5DF;
     box-shadow: 1px 1px 5px #888888;
-    height: 275px;
+    height: 280px;
 }
 
 #SplashScreenWord{
@@ -108,16 +124,7 @@ button:hover{
     padding: 15px 35px;
 }
 
-.filterBtn{
-    -webkit-transition-duration: 0.5s;  Safari 
-    transition-duration: 0.5s;
-}
 
-.filterBtn:hover{
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-    width: 98px;
-}
 
 a{
     padding: 10px;
@@ -148,9 +155,7 @@ footer p:last-of-type{
     text-align: left;
 }
 
-/* For tablets */
-/* @media only screen and (min-width: 600px)*/
-@media only screen and (min-width: 500px) {
+/*Columns for mobile (rare use)*/
     .col-m-1 {width: 8.33%;}
     .col-m-2 {width: 16.66%;}
     .col-m-3 {width: 25%;}
@@ -164,6 +169,22 @@ footer p:last-of-type{
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
 
+/* For tablets */
+/* @media only screen and (min-width: 600px)*/
+@media only screen and (min-width: 500px) {
+    .col-t-1 {width: 8.33%;}
+    .col-t-2 {width: 16.66%;}
+    .col-t-3 {width: 25%;}
+    .col-t-4 {width: 33.33%;}
+    .col-t-5 {width: 41.66%;}
+    .col-t-6 {width: 50%;}
+    .col-t-7 {width: 58.33%;}
+    .col-t-8 {width: 66.66%;}
+    .col-t-9 {width: 75%;}
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 91.66%;}
+    .col-t-12 {width: 100%;}
+
     #SplashScreenWord{
         font-size: 60px;
     }
@@ -176,7 +197,17 @@ footer p:last-of-type{
         background-color: teal;
     }
 
+    .skillsRow p{
+        font-size: 17px;
+    }
     
+    .filterBtn{
+        width: 100px;
+    }
+    
+    .filterBtn:hover{
+    width: 98px;
+}
 }
 
 /* For desktop */
@@ -206,18 +237,24 @@ footer p:last-of-type{
     #responsiveSignal{
         background-color: darkslateblue;
     }
+    
+    .skillsRow p{
+        font-size: 20px;
+    }
 
-
+    .filterBtn{
+        width: 100px;
+    }
+    
+    .filterBtn:hover{
+        width: 98px;
+    }
 }
 
 * {
     /*makes sure the padding and border are included in total height of elements*/
     box-sizing: border-box;
 }
-
-
-
-
 
 #logo{
     /*centers an element horizontally*/
@@ -229,7 +266,6 @@ footer p:last-of-type{
     border-radius: 30px;
     font-weight: normal;
 }
-
 
 
 .practiceImg{
