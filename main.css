@@ -104,13 +104,11 @@ button{
     font-family: 'Lora', serif;
     font-weight: bold;
     font-size: 15px;
-    margin: 20px;
+    margin: 0px 20px 20px;
     border: 1px solid #5A3000;
     -webkit-transition-duration: 0.2s; /* Safari */
     transition-duration: 0.2s;
     cursor: pointer;
-    position: absolute;
-    left: 5vw;
 }
 
 button:hover{
@@ -123,7 +121,16 @@ button:hover{
     padding: 15px 35px;
 }
 
+.light{
+    background-color: #cc9933;
+    color: #5A3000;
+}
 
+.light:hover{
+    background-color: #5A3000;
+    color: #cc9933;
+    border: 1px solid #cc9933;
+}
 
 a{
     padding: 10px;
@@ -209,7 +216,7 @@ footer p:last-of-type{
     }
     
     .filterBtn:hover{
-    width: 98px;
+    width: 110px;
 }
 }
 
@@ -250,7 +257,7 @@ footer p:last-of-type{
     }
     
     .filterBtn:hover{
-        width: 98px;
+        width: 110px;
     }
 }
 
