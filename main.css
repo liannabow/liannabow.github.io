@@ -20,6 +20,13 @@ header{
 }
 /*#endRegion*/
 
+header{
+        /*background-image: url(media/MandalaKamryYellow.jpg);*/
+        background-image: url(media/MandalaOneLineYellow.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
 
 html{
 /*    background: #e2a726;*/
@@ -44,11 +51,19 @@ main{
 #SplashScreenWord{
     font-family: 'Slabo 13px', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 40px;
-    padding: 50px;
+    padding: 50px 50px 50px;
     position: absolute;
-    bottom: 36%;
+    bottom: 35%;
     left: 0;
     right: 0;
+    margin: auto;
+}
+
+#tagline{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 35%;
     margin: auto;
 }
 
@@ -144,13 +159,7 @@ footer p:last-of-type{
         background-color: teal;
     }
 
-    header{
-        /*background-image: url(media/MandalaKamryYellow.jpg);*/
-        background-image: url(media/MandalaOneLineYellow.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+    
 }
 
 /* For desktop */
@@ -177,13 +186,6 @@ footer p:last-of-type{
         background-color: darkslateblue;
     }
 
-    header{
-        /*background-image: url(media/MandalaKamryYellow.jpg);*/
-        background-image: url(media/MandalaOneLineYellow.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
 
 }
 
