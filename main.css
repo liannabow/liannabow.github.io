@@ -62,6 +62,7 @@ main{
 
 #tagline{
     position: absolute;
+    font-size: 15px;
     left: 0;
     right: 0;
     bottom: 35%;
@@ -105,6 +106,17 @@ button:hover{
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
     padding: 15px 35px;
+}
+
+.filterBtn{
+    -webkit-transition-duration: 0.5s;  Safari 
+    transition-duration: 0.5s;
+}
+
+.filterBtn:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    width: 98px;
 }
 
 a{
@@ -155,6 +167,10 @@ footer p:last-of-type{
     #SplashScreenWord{
         font-size: 60px;
     }
+    
+    #tagline{
+        font-size: 18px;
+    }
 
     #responsiveSignal{
         background-color: teal;
@@ -181,6 +197,10 @@ footer p:last-of-type{
 
     #SplashScreenWord{
         font-size: 80px;
+    }
+    
+    #tagline{
+        font-size: 20px;
     }
 
     #responsiveSignal{
