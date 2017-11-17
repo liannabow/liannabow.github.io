@@ -61,7 +61,6 @@ section{
     padding: 10px;
     border: 5px solid #FDF5DF;
     box-shadow: 1px 1px 5px #888888;
-    height: 350px;
 }
 
 #SplashScreenWord{
@@ -217,7 +216,7 @@ footer p:last-of-type{
     
     .filterBtn:hover{
     width: 110px;
-}
+    }
 }
 
 /* For desktop */
@@ -258,6 +257,10 @@ footer p:last-of-type{
     
     .filterBtn:hover{
         width: 110px;
+    }
+    
+    .portfolioBox{        
+        min-height: 450px;
     }
 }
 
