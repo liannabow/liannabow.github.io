@@ -35,6 +35,16 @@ html{
     color: #5A3000;
 }
 
+main{
+    background: #5A3000;
+    color: #FDF5DF;
+    margin: auto -8px 40px;
+}
+
+main p{
+    padding: 0px 20px;
+}
+
 section{
     background: #FDF5DF;
     margin: auto -8px 40px;
