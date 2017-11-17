@@ -21,8 +21,7 @@ header{
 /*#endRegion*/
 
 header{
-        /*background-image: url(media/MandalaKamryYellow.jpg);*/
-        background-image: url(media/MandalaOneLineYellow.jpg);
+        background-image: url(media/MandalaOneLineYellowMobile.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -185,6 +184,10 @@ footer p:last-of-type{
     .col-t-11 {width: 91.66%;}
     .col-t-12 {width: 100%;}
 
+    header{
+        background-image: url(media/MandalaOneLineYellow.jpg);
+    }
+    
     #SplashScreenWord{
         font-size: 60px;
     }
