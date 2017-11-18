@@ -109,7 +109,7 @@ section{
     right: 0;*/
 }
 
-button{
+.button{
     border-radius: 15px;
     padding: 15px 25px;
     background-color: #5A3000;
@@ -125,7 +125,7 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+.button:hover{
     /* background-color: #5A3000;
     color: #DFA500; */
     background-color: #cc9933;
@@ -148,6 +148,7 @@ button:hover{
 
 a{
     padding: 10px;
+    text-decoration: none;
 }
 
 article img{
@@ -161,6 +162,10 @@ footer{
     margin: 40px -8px -1px;
     background: #5A3000;
     color: #cc9933;
+}
+
+footer h2{
+    margin-top: 50px;
 }
 
 footer p{
