@@ -3,7 +3,6 @@
     width: 100%;
     float: left;
     padding: 15px;
-    /*border: 1px solid red;*/
 }
 
 /*#region Magic Section*/
@@ -21,10 +20,10 @@ header{
 /*#endRegion*/
 
 header{
-        background-image: url(media/MandalaOneLineYellowMobile.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+    background-image: url(media/MandalaOneLineYellowMobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 html{
@@ -61,7 +60,7 @@ section{
 
 .filterBtn{
     width: 50px;
-    -webkit-transition-duration: 0.5s;  Safari 
+    -webkit-transition-duration: 0.5s;  /* Safari */ 
     transition-duration: 0.5s;
 }
 
@@ -111,28 +110,25 @@ section{
 
 .button{
     border-radius: 15px;
-    padding: 15px 25px;
-    background-color: #5A3000;
-    color: #cc9933;
-    /*font-family: 'Roboto', sans-serif;*/
+    padding: 10px;
     font-family: 'Lora', serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
     margin: 0px 20px 20px;
     border: 1px solid #5A3000;
     -webkit-transition-duration: 0.2s; /* Safari */
     transition-duration: 0.2s;
     cursor: pointer;
+    width: 100%;
+    float: left;
 }
 
 .button:hover{
-    /* background-color: #5A3000;
-    color: #DFA500; */
-    background-color: #cc9933;
-    color: #5A3000;
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
-    padding: 15px 35px;
+    padding: 10px;
+    width: 100%;
+    float: left;
 }
 
 .light{
@@ -237,6 +233,23 @@ footer p:last-of-type{
     .filterBtn:hover{
     width: 110px;
     }
+    
+    .button{
+        border-radius: 15px;
+        padding: 15px 25px;
+        font-family: 'Lora', serif;
+        font-weight: bold;
+        font-size: 15px;
+        margin: 0px 20px 20px;
+        border: 1px solid #5A3000;
+        -webkit-transition-duration: 0.2s; /* Safari */
+        transition-duration: 0.2s;
+        cursor: pointer;
+    }
+
+    .button:hover{
+        padding: 15px 35px;
+    }
 }
 
 /* For desktop */
@@ -281,6 +294,27 @@ footer p:last-of-type{
     
     .portfolioBox{        
         min-height: 450px;
+    }
+    
+    .button{
+        border-radius: 15px;
+        padding: 15px 25px;
+        font-family: 'Lora', serif;
+        font-weight: bold;
+        font-size: 15px;
+        margin: 0px 20px 20px;
+        border: 1px solid #5A3000;
+        -webkit-transition-duration: 0.2s; /* Safari */
+        transition-duration: 0.2s;
+        cursor: pointer;
+        width: auto;
+        float: none;
+    }
+
+    .button:hover{
+        padding: 15px 35px;
+        width: auto;
+        float: none;
     }
 }
 
