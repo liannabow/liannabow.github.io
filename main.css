@@ -289,57 +289,6 @@ footer p:last-of-type{
     box-sizing: border-box;
 }
 
-#logo{
-    /*centers an element horizontally*/
-    margin: auto;
-    /*background-image: url(media/MandalaKamryDark.jpg);*/
-    max-width:50px;
-    height: 50px;
-    /*background-size: cover;*/
-    border-radius: 30px;
-    font-weight: normal;
-}
-
-
-.practiceImg{
-    background-image: url(media/MandalaKamryDark.jpg);
-    background-size: cover;
-    color: red;
-    /*display: table;*/
-}
-
-
-.practiceImg > p{
-    color: white;
-    margin-top: 0px;
-    text-align: center;
-    font-family: Lora;
-    /*display: inline-block;
-    display: table-cell;
-    vertical-align: middle;*/
-}
-
-/*divides the page into columns and gives percentage of page for each number of columns*/
-/* [class*="col-"] {
-    float: left;
-    padding: 15px;
-    border: 1px solid red;
-} */
-/*
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-*/
-
 /*this solves the problem of everything floating to the left and taken out of the flow of the page, which would have made them get placed as if our columns don't exist. so we add a style to clear the float*/
 .row::after {
     content: "";
