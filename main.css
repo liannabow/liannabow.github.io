@@ -24,6 +24,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    color: #FDF5DF;
 }
 
 html{
@@ -132,14 +133,12 @@ section{
 }
 
 .light{
-    background-color: #cc9933;
-    color: #5A3000;
+    background-color: #5A3000;
+    color: #FDF5DF;
 }
 
 .light:hover{
     background-color: #5A3000;
-    color: #cc9933;
-    border: 1px solid #cc9933;
 }
 
 a{
@@ -156,7 +155,7 @@ article img{
 footer{
     padding: 40px;
     margin: 40px -8px -1px;
-    background: #5A3000;
+    background: #FDF5DF;
     color: #cc9933;
 }
 
