@@ -69,6 +69,7 @@ section{
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
     width: 48px;
+    width: 48px;
 }
 
 .portfolioBox{
@@ -288,10 +289,6 @@ footer p:last-of-type{
     
     .filterBtn:hover{
         width: 110px;
-    }
-    
-    .portfolioBox{        
-        min-height: 450px;
     }
     
     .button{
