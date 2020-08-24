@@ -10,9 +10,11 @@
              case "drawBtn":
                  $drawRow.show();
                  $paintRow.hide();
+                 break;
              case "paintBtn":
                  $drawRow.hide();
                  $paintRow.show();
+                 break;
              default:
                  break;
          }
