@@ -90,6 +90,10 @@ section{
     margin: auto;
 }
 
+#RedbubbleCallout{
+    color:#FDF5DF;
+}
+
 #tagline{
     position: absolute;
     font-size: 15px;
